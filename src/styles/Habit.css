@@ -1,0 +1,45 @@
+.flex-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit{
+    padding: 4% 30%;
+    text-align: left;
+}
+
+.description{
+    width: 50%;
+}
+
+#list-item{
+    margin-left: 17%;
+    margin-top: -6.3%;
+    font-size: 1.1rem;
+    font-weight: 700;
+    position: relative;
+}
+
+#delete{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    #list-item{
+        margin-left: 15%;
+        margin-top: -9%;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #list-item{
+        margin-left: 15%;
+        margin-top: -12%;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+
